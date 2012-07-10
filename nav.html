@@ -1,0 +1,205 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#" class="index">
+<!--manifest="cache.manifest"-->
+
+    <title></title>
+<head>
+    <!-- titles -->
+    <link rel="stylesheet" media="screen" href="css/css.php" type="text/css" />
+    <script type="text/javascript" src="js/jquery.1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/utilities.js"></script>
+    <script type="text/javascript">
+//<![CDATA[
+    $(document).ready(function() {
+     $(this).ready(init);  
+     $('#slideshow').cycle({  fx: 'fade', pager: '#slidePager', timeout:5000  });
+    }); //end document onload
+    //]]>
+    </script> 
+
+</head>
+
+<body>
+
+     <h1>Custom Tabs</h1>
+     <p>Responsive layout with custom tabs. </p>
+        
+    <div id="wrapper" class="blkTrp">
+    
+<section id="featuredArticles">
+
+	<h1 class="hidden">Featured Articles</h1>
+
+	<div id="slideWrap">
+
+	<ul id="slideshow">
+		<li class="" style="position:absolute; top:0px; left:0px; z-index:4; opacity: 0;"><!--hides on page load-->
+
+			<a href="#"><img src="http://www.ecocentricblog.org/images/photos/thumbv3.php?src=love_letters.jpg" /></a>
+			<div class="meta blkTrp">
+				<h2><a href="#">A Love Triangle for the Ages: Letters from Food, Water and Energy</a></h2>
+				<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+			</div>
+
+		</li>
+
+		<li class="" style="position:absolute; top:0px; left:0px; z-index:4; opacity: 0;"><!--hides on page load-->
+
+				<a href="#">
+				<img src="http://www.ecocentricblog.org/images/photos/thumbv3.php?src=mattdamon.jpg" />
+				</a>
+				<div class="meta blkTrp">
+				<h2><a href="#">Duis autem vel eum iriure </a></h2>
+				<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+			</div>
+
+		</li>
+
+		<li class="" style="position:absolute; top:0px; left:0px; z-index:4; opacity: 0;">
+
+		  <a href="#">
+			<img src="http://www.ecocentricblog.org/images/photos/thumbv3.php?src=hersheykiss.jpg&w=544&h=270&a=c&q=85" />
+		  </a>
+			<div class="meta blkTrp">
+				<h2><a href="#">ut aliquip ex ea commodo consequat</a></h2>
+				<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+			</div>
+
+		</li>
+
+		<li class="" style="position:absolute; top:0px; left:0px; z-index:4; opacity: 0;">
+
+				<a href="#">
+					<img src="http://www.ecocentricblog.org/images/photos/thumbv3.php?src=Great_Barrier_Reef.jpg&w=544&h=270&a=c&q=85" />
+				</a>
+				<div class="meta blkTrp">
+					<h2><a href="http://www.ecocentricblog.org/2011/02/04/the-earth-from-on-high-a-review-of-home/">Lorem ipsum dolor sit amet</a></h2>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.  </p>
+				</div>
+
+		</li>
+	</ul>
+
+
+	<div class="slideControls">
+		<a id="slideControl" class="icon stop"> </a>
+		<div id="slidePager"></div>
+	</div>
+
+ </div><!--end slideWrap-->
+
+</section> 
+
+
+        <nav id="program_nav">
+            <div class="level1 grayTrp" id="tab1">
+                <span class="first">Tab 1</span>
+
+                <div class='levelsContainer grayTrp' style='display:none;'>
+                    
+                    <ul class='level2'>
+                        <li class="hasKids"><span coords='#tab11181'>List Item</span></li>
+
+                    </ul>
+ 
+
+                    <div class='level3 ' id='tab11181'>
+                        <ul>
+                            <li class="hasKids"><span coords='#tab1492'>List Item</span></li>
+
+                            <li>List Item</li>
+                        </ul>
+                    </div>
+
+                    <div class='level4' id='tab1492'>
+                        <ul>
+                            <li class="hasLink"><a href="/82" class='navLink' title='Go to article'>List Item</a></li>
+                        </ul>
+                    </div>
+                    
+                <span class="icon close"></span>
+                </div>
+                 
+            </div>
+            
+            
+            <div class="level1 grayTrp" id="tab2">
+                <span class="first">Tab 2</span>
+
+                <div class='levelsContainer grayTrp' style='display:none;'>
+                    
+                    <ul class='level2'>                    
+
+                        <li class="hasKids"><span coords='#tab2360'>List Item</span></li>
+
+                        <li class="hasKids"><span coords='#tab2688'>List Item</span></li>
+
+                    </ul>
+
+                    <div class='level3' id='tab2360'>
+                        <ul>
+                            <li class="hasKids"><span coords='#tab2392'>List Item</span></li>
+
+                        </ul>
+                    </div>
+
+                    <div class='level3' id='tab2688'>
+                        <ul>
+                            <li>List Item</li>
+                        </ul>
+                    </div>              
+                    
+                    <div class='level4' id='tab2392'>
+                        <ul>
+                            <li>List Item</li>
+                        </ul>
+                    </div>    
+                    
+                 <span class="icon close"></span>
+                </div>
+                 
+            </div>
+            
+
+            <div class="level1 grayTrp" id="tab3">
+                <span class="first">Tab 3</span>
+
+                <div class='levelsContainer grayTrp' style='display:none;'>
+                    
+                    <ul class='level2'>                    
+
+                        <li class="hasKids"><span coords='#tab3360'>List Item</span></li>
+
+                        <li class="hasKids"><span coords='#tab3688'>List Item</span></li>
+
+                    </ul>
+
+                    <div class='level3' id='tab3360'>
+                        <ul>
+                            <li class="hasKids"><span coords='#tab3392'>List Item</span></li>
+
+                        </ul>
+                    </div>
+
+                    <div class='level3' id='tab3688'>
+                        <ul>
+                            <li>List Item</li>
+                        </ul>
+                    </div>              
+                    
+                    <div class='level4' id='tab3392'>
+                        <ul>
+                            <li>List Item</li>
+                        </ul>
+                    </div>    
+                    
+                 <span class="icon close"></span>
+                </div>
+                 
+            </div>
+            
+        </nav>
+    </div><!--/wrapper-->
+    <script type="text/javascript" src="js/footer.js">
+</script>
+</body>
+</html>
